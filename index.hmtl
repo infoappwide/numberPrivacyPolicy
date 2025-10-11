@@ -1,208 +1,99 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <title>Number — Privacy Policy</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Privacy Policy for the Number mobile game." />
-  <style>
-    :root {
-      --bg: #0f1220;
-      --panel: #171a2b;
-      --text: #e9ecf1;
-      --muted: #a7afc0;
-      --accent: #5aa9ff;
-      --ok: #31c48d;
-      --warn: #f6ad55;
-      --danger: #f98080;
-      --radius: 14px;
-    }
-    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji"; }
-    .wrap { max-width: 920px; margin: 0 auto; padding: 32px 20px 72px; }
-    header { background: linear-gradient(135deg, rgba(90,169,255,.15), rgba(49,196,141,.10)); border: 1px solid rgba(90,169,255,.25); padding: 28px; border-radius: var(--radius); box-shadow: 0 10px 30px rgba(0,0,0,.25) inset, 0 10px 24px rgba(0,0,0,.2); }
-    h1 { margin: 0 0 6px; font-size: 2rem; letter-spacing: .2px; }
-    .meta { color: var(--muted); font-size: .95rem; }
-    section { background: var(--panel); border: 1px solid rgba(255,255,255,.06); border-radius: var(--radius); padding: 22px; margin-top: 18px; box-shadow: 0 8px 24px rgba(0,0,0,.18); }
-    h2 { margin: 0 0 10px; font-size: 1.25rem; }
-    h3 { margin: 18px 0 8px; font-size: 1.05rem; color: var(--accent); }
-    p, li { color: var(--text); }
-    ul { padding-left: 18px; }
-    code, .badge { background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.08); padding: .1rem .4rem; border-radius: 8px; }
-    a { color: var(--accent); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .callout { border-left: 4px solid var(--accent); padding: 12px 14px; background: rgba(90,169,255,.08); border-radius: 8px; }
-    footer { color: var(--muted); margin-top: 32px; text-align: center; }
-    .pill { display:inline-block; padding:.2rem .55rem; border-radius:999px; font-size:.85rem; border:1px solid rgba(255,255,255,.14); background: rgba(255,255,255,.04); color:var(--muted); margin-left:.35rem;}
-  </style>
+    <meta charset="UTF-8">
+    <title>Privacy Policy – Number Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 24px;
+            background-color: #f9f9f9;
+            color: #222;
+            line-height: 1.6;
+        }
+        h1 {
+            font-size: 28px;
+            color: #1A4FFF;
+        }
+        h2 {
+            font-size: 20px;
+            margin-top: 32px;
+        }
+        p {
+            margin: 12px 0;
+        }
+        .section {
+            margin-bottom: 24px;
+        }
+        .footer {
+            margin-top: 48px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <h1>Privacy Policy</h1>
-      <div class="meta">
-        App: <strong>Number</strong> <span class="pill">mobile game</span><br/>
-        Effective date: <strong>October 7, 2025</strong>
-      </div>
-    </header>
 
-    <section id="overview">
-      <h2>Overview</h2>
-      <p>
-        This Privacy Policy explains how <strong>Number</strong> (“the App”, “we”, “us”) collects, uses, and shares information when you use the App.
-        We designed Number to minimize personal data collection and to store only what’s needed to run the game (e.g., levels, progress, virtual items).
-      </p>
-      <p class="callout">
-        By using the App, you agree to this Privacy Policy. If you do not agree, please do not use the App.
-      </p>
-    </section>
+    <h1>Privacy Policy (Number Game)</h1>
+    <p><strong>Last updated:</strong> October 11, 2025</p>
 
-    <section id="controller">
-      <h2>Data Controller</h2>
-      <p>
-        The data controller for your information is the developer of Number.
-        Contact: <a href="mailto:youremail@example.com">youremail@example.com</a>
-        <!-- TODO: Replace with your actual contact email and (if applicable) business address. -->
-      </p>
-    </section>
+    <p><strong>Number Game</strong> ("we", "our", or "the app") respects your privacy and is committed to protecting your data. This policy explains how we handle information when you use our mobile game.</p>
 
-    <section id="data-we-collect">
-      <h2>Information We Collect</h2>
+    <div class="section">
+        <h2>1. Information We Collect</h2>
+        <p>We may collect a device identifier (such as a randomly generated device ID) to track your game progress and achievements.</p>
+        <p>We do not collect your name, email address, or any personally identifiable information.</p>
+        <p>Gameplay statistics and progress may be stored anonymously using Firebase to enable cloud saves and analytics.</p>
+    </div>
 
-      <h3>1) Account &amp; Identifiers</h3>
-      <ul>
-        <li><strong>Anonymous Account:</strong> We use Firebase Authentication’s <em>Anonymous</em> sign-in to create a unique user ID. This does not require your name, email, or password.</li>
-        <li><strong>Device or App Instance ID:</strong> A randomly generated identifier used to associate your progress and prevent fraud.</li>
-      </ul>
+    <div class="section">
+        <h2>2. How We Use the Information</h2>
+        <p>To manage game progress, leaderboards, and achievements.</p>
+        <p>To maintain game data securely across devices.</p>
+        <p>To serve personalized or contextual advertisements through Google AdMob.</p>
+    </div>
 
-      <h3>2) Gameplay &amp; Profile Data</h3>
-      <ul>
-        <li>Game progress (current level, wins/losses state, hearts, timers).</li>
-        <li>Virtual currency balance (e.g., “gold”) and purchases of in-game items (“jokers,” hearts).</li>
-        <li>Avatar selection and cosmetic preferences.</li>
-      </ul>
+    <div class="section">
+        <h2>3. Third-Party Services</h2>
+        <p>This app integrates with the following services:</p>
+        <ul>
+            <li><strong>Google AdMob</strong> – for displaying ads.</li>
+            <li><strong>Firebase</strong> – for storing game progress and analytics.</li>
+        </ul>
+        <p>These services may collect device identifiers, usage data, or analytics to improve functionality and advertising performance.</p>
+        <p>For more details, please review their privacy policies:</p>
+        <ul>
+            <li><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
+            <li><a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></li>
+        </ul>
+    </div>
 
-      <h3>3) App Diagnostics</h3>
-      <ul>
-        <li>Basic logs and error information required to keep the game functional and secure.</li>
-      </ul>
+    <div class="section">
+        <h2>4. User Rights</h2>
+        <p>You may request deletion of your gameplay data stored on Firebase by contacting us. We do not maintain personally identifiable information, so requests are processed at the device-ID level only.</p>
+        <p>📧 <a href="mailto:infoappwide@gmail.com">infoappwide@gmail.com</a></p>
+    </div>
 
-      <h3>4) Network Images &amp; Caching</h3>
-      <ul>
-        <li>The App loads some images (e.g., backgrounds/“eras”) from the network and caches them on your device for faster loading. We do not receive personal data from these images.</li>
-      </ul>
+    <div class="section">
+        <h2>5. Data Security</h2>
+        <p>All gameplay and device data are securely stored through Firebase’s encrypted systems. We never sell, rent, or share your data with third parties beyond what’s necessary to operate the app and deliver ads.</p>
+    </div>
 
-      <p><strong>We do not knowingly collect sensitive personal information</strong> (e.g., legal name, email, phone number, contacts, precise location) through normal gameplay.</p>
-    </section>
+    <div class="section">
+        <h2>6. Children’s Privacy</h2>
+        <p>Our app is designed for general audiences and does not knowingly collect personal data from children under 13. If you believe a child has provided us with information, please contact us so we can delete it.</p>
+    </div>
 
-    <section id="how-we-use">
-      <h2>How We Use Information</h2>
-      <ul>
-        <li>Authenticate you anonymously and maintain your saved progress across sessions.</li>
-        <li>Operate core game features (levels, hearts, timers, in-game currency, avatars, items).</li>
-        <li>Prevent abuse, protect integrity, and improve stability and performance.</li>
-        <li>Process in-app purchases via Apple (if you choose to buy items).</li>
-      </ul>
-    </section>
+    <div class="section">
+        <h2>7. Changes to This Policy</h2>
+        <p>We may update this policy periodically. Any changes will be posted here with an updated “Last updated” date.</p>
+    </div>
 
-    <section id="legal-bases">
-      <h2>Legal Bases (EEA/UK)</h2>
-      <ul>
-        <li><strong>Performance of a contract:</strong> To provide the game and core features you request.</li>
-        <li><strong>Legitimate interests:</strong> To secure, maintain, and improve the App.</li>
-        <li><strong>Consent:</strong> Where required by law (e.g., certain analytics/marketing if ever added).</li>
-      </ul>
-    </section>
+    <div class="footer">
+        © 2025 Number Game
+    </div>
 
-    <section id="third-parties">
-      <h2>Third-Party Services</h2>
-      <p>We rely on trusted third parties to provide infrastructure:</p>
-      <ul>
-        <li><strong>Google Firebase</strong> — Anonymous Authentication and Cloud Firestore database to store game progress and inventory.</li>
-        <li><strong>Apple</strong> — In-App Purchases are processed by Apple if you buy virtual items. We do not receive your full payment details.</li>
-        <li><strong>Image Loading Library</strong> — The app may fetch and cache remote images to your device to improve performance.</li>
-      </ul>
-      <p>
-        These providers may process limited technical data to deliver their services. Please review their privacy policies for details.
-        <!-- TODO: Optionally link to Firebase and Apple privacy policies. -->
-      </p>
-    </section>
-
-    <section id="sharing">
-      <h2>Sharing of Information</h2>
-      <p>
-        We do not sell your personal information. We share data only with:
-      </p>
-      <ul>
-        <li>Service providers listed above to run the App.</li>
-        <li>Authorities, if required by law or to protect our rights, users, or the public.</li>
-        <li>Successors in the event of a reorganization, merger, or transfer of the App.</li>
-      </ul>
-    </section>
-
-    <section id="retention">
-      <h2>Data Retention</h2>
-      <p>
-        We keep gameplay and profile data for as long as your account is active or as needed to operate the App. If the App or your account becomes inactive,
-        we may delete or anonymize stored data after a reasonable period, unless a longer retention is required by law.
-      </p>
-    </section>
-
-    <section id="your-rights">
-      <h2>Your Rights &amp; Choices</h2>
-      <ul>
-        <li><strong>Access / Correction / Deletion:</strong> You can request access to, correction of, or deletion of your data by contacting us.</li>
-        <li><strong>Opt-Out:</strong> If we add optional analytics or marketing in the future, you’ll have controls to opt out where required.</li>
-        <li><strong>Do Not Track:</strong> The App does not currently respond to “Do Not Track” browser signals.</li>
-      </ul>
-      <p>To make a request, email <a href="mailto:youremail@example.com">youremail@example.com</a>. We may need to verify your identity (e.g., with your anonymous user ID).</p>
-      <!-- TODO: Replace email and add region-specific instructions if needed. -->
-    </section>
-
-    <section id="children">
-      <h2>Children’s Privacy</h2>
-      <p>
-        The App is not directed to children under 13 (or the minimum age required in your jurisdiction). We do not knowingly collect personal data from children.
-        If you believe a child has provided personal data, please contact us so we can delete it.
-      </p>
-    </section>
-
-    <section id="security">
-      <h2>Security</h2>
-      <p>
-        We use reasonable administrative, technical, and physical safeguards to protect data. No system is 100% secure, and we cannot guarantee absolute security.
-      </p>
-    </section>
-
-    <section id="intl">
-      <h2>International Transfers</h2>
-      <p>
-        Your information may be processed and stored in countries other than your own. We take steps to ensure appropriate protections are in place where required by law.
-      </p>
-    </section>
-
-    <section id="changes">
-      <h2>Changes to This Policy</h2>
-      <p>
-        We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated effective date. If changes are material, we may provide additional notice in-app.
-      </p>
-    </section>
-
-    <section id="contact">
-      <h2>Contact Us</h2>
-      <p>
-        Questions or requests? Email <a href="mailto:youremail@example.com">youremail@example.com</a>.
-        <!-- TODO: Replace with your actual contact email (and address if applicable). -->
-      </p>
-    </section>
-
-    <footer>
-      © <span id="year"></span> Number — All rights reserved.
-    </footer>
-  </div>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>
-
